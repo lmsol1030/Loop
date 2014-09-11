@@ -16,7 +16,7 @@ for (var x = 1; x <= 8; x++)
 
 var size = 	Math.abs(mouseX - 320);
 
-ellipse(320, 240, );
+ellipse(320, 240);
 
 }
 
