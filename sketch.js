@@ -5,11 +5,10 @@ function setup() {
 
   stroke(255, 0, 0);
 
- for (var x = 1; x <=3; x++)
-
-  {
-  ellipse(x * 100, 100, 50, 50);
-  }
+for (var x = 1; x <= 8; x++)
+{
+  ellipse(x * 70, x * 20 + 100, 50, 50);
+}
 }
 
   
