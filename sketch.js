@@ -5,14 +5,15 @@ function setup() {
 
   stroke(255, 0, 0);
 
-  var x;
+ for (var x = 1; x <=3; x++)
 
-  x = 100;
-  ellipse(x, 100, 50, 50);
+{
+  ellipse(x * 100, 100, 50, 50);
 
-  x = 250;
-  ellipse(x, 100, 50, 50);
+  ellipse(x * 100, 100, 50, 50);
 
-  x = 300;
-  ellipse(x, 100, 50, 50);
+  ellipse(x * 100, 100, 50, 50);
 }
+
+
+  
